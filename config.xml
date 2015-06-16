@@ -23,4 +23,9 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <gap:plugin name="cordova-plugin-konotor" source="npm" version="1.0.0">
+        <param name="APP_ID" value="a60a4860-e509-4ca2-9073-5823e3eaa9ab"/>
+        <param name="APP_KEY" value="f06259c0-bdbf-47b4-9c4b-b905c08f2edc"/>
+    </gap:plugin>
+
 </widget>
